@@ -1,15 +1,28 @@
+using dotenv.net;
+using MongoDB.Driver;
+using TrackingInventory.Data;
+using TrackingInventory.Models.entities;
+using TrackingInventory.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+DotEnv.Load();
+var envKeys = DotEnv.Read();
 
+var mongoConnectionString = envKeys["ConnectionString"];
+var mongoDatabaseName = envKeys["DatabaseName"];
+var mongoCollectionName = envKeys["CollectionName"];
+
+var mongoClient = new MongoClient(mongoConnectionString);
+var mongoDatabase = mongoClient.GetDatabase(mongoDatabaseName);
+var mongoCollection = mongoDatabase.GetCollection<InventoryTracker>(mongoCollectionName);
+builder.Services.AddScoped<ITrackingInventoryRepository, TrackingInventoryRepository>();
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
