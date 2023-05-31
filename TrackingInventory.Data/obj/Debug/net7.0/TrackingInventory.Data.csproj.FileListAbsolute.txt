@@ -1,0 +1,15 @@
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\bin\Debug\net7.0\TrackingInventory.Data.deps.json
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\bin\Debug\net7.0\TrackingInventory.Data.dll
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\bin\Debug\net7.0\TrackingInventory.Data.pdb
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\bin\Debug\net7.0\TrackingInventory.Models.dll
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\bin\Debug\net7.0\TrackingInventory.Models.pdb
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.csproj.AssemblyReference.cache
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.AssemblyInfoInputs.cache
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.AssemblyInfo.cs
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.csproj.CoreCompileInputs.cache
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.csproj.CopyComplete
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.dll
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\refint\TrackingInventory.Data.dll
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\TrackingInventory.Data.pdb
+C:\Users\tsxepo\Documents\tracking-inventory\TrackingInventory.Data\obj\Debug\net7.0\ref\TrackingInventory.Data.dll

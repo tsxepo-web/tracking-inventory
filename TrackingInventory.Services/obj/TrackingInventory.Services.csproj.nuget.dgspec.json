@@ -1,0 +1,196 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Services\\TrackingInventory.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Data\\TrackingInventory.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Data\\TrackingInventory.Data.csproj",
+        "projectName": "TrackingInventory.Data",
+        "projectPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Data\\TrackingInventory.Data.csproj",
+        "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj": {
+                "projectPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj",
+        "projectName": "TrackingInventory.Models",
+        "projectPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj",
+        "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Services\\TrackingInventory.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Services\\TrackingInventory.Services.csproj",
+        "projectName": "TrackingInventory.Services",
+        "projectPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Services\\TrackingInventory.Services.csproj",
+        "packagesPath": "C:\\Users\\tsxepo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tsxepo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Data\\TrackingInventory.Data.csproj": {
+                "projectPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Data\\TrackingInventory.Data.csproj"
+              },
+              "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj": {
+                "projectPath": "C:\\Users\\tsxepo\\Documents\\tracking-inventory\\TrackingInventory.Models\\TrackingInventory.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
