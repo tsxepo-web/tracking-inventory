@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/57e1873c-49d0-4f87-a75a-5608cf6d108d/resourceGroups/appsvc_windows_centralus2/providers/Microsoft.Web/sites/TrackingInventory",
+    "appService.deploySubpath": "."
+}
