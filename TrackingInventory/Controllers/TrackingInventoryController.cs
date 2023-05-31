@@ -10,10 +10,10 @@ namespace TrackingInventory.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class TrackingInvetoryController : ControllerBase
+    public class TrackingInventoryController : ControllerBase
     {
         private readonly ITrackingInventoryRepository _trackingInventoryRepository;
-        public TrackingInvetoryController(ITrackingInventoryRepository trackingInventoryRepository)
+        public TrackingInventoryController(ITrackingInventoryRepository trackingInventoryRepository)
         {
             _trackingInventoryRepository = trackingInventoryRepository;
         }
